@@ -3,9 +3,4 @@ import Map from './Map';
 import LivereComment from './LivereComment';
 import FacebookComment from './FacebookComment';
 
-export {
-  ProfileCard,
-  Map,
-  LivereComment,
-  FacebookComment,
-};
+export { ProfileCard, Map, LivereComment, FacebookComment };

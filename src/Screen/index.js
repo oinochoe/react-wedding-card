@@ -6,10 +6,10 @@ import Comment from './Comment';
 import Footer from './Footer';
 
 export default {
-  Header,
-  Profile,
-  Gallery,
-  Place,
-  Comment,
-  Footer,
+    Header,
+    Profile,
+    Gallery,
+    Place,
+    Comment,
+    Footer,
 };

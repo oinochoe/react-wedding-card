@@ -9,16 +9,16 @@ const gallery = [
 
 export default {
     global: {
-        googleMapAPIKey: 'AIzaSyDSjYdBUN_NDRJQShxs0ugvMBV2goZvT2o',
+        googleMapAPIKey: 'AIzaSyAaz23lDWE61j1SQZIU8F33ThI06QRbABU',
         comment: {
             livere: {
-                enable: true, // if false, not rendering livere comment component
+                enable: true,
                 service: 'city',
-                uid: 'MTAyMC8yNTYzNi8yMjMy',
+                uid: 'MTAyMC81MDAxNi8yNjUwNw==',
             },
             facebook: {
-                enable: false, // if false, not rendering facebook comment component
-                appId: '1535680996513864',
+                enable: true,
+                appId: '250286269417019',
             },
         },
     },
@@ -30,25 +30,26 @@ export default {
             latitude: 35.1969469,
             longitude: 128.5657094,
         },
-        at: '2018-01-27 12:00',
+        at: '2020-05-07 12:00',
     },
     bridal: {
-        name: '신사동',
+        name: '김영민',
         image: require('./img/bridal.jpeg'),
-        phone: '+821011111111',
-        facebook: false, // if false, not showing facebook icon
-        father: '서울시',
-        mother: '강남구',
+        phone: '+821056144070',
+        instagram: 'https://www.instagram.com/copstyle86/',
+        github: 'https://github.com/oinochoe',
+        father: '김병석',
+        mother: '김수진',
         position: '장남',
     },
     groom: {
-        name: '역곡동',
+        name: '윤이랑',
         image: require('./img/groom.jpeg'),
-        phone: '+821022222222',
-        facebook: 'https://www.facebook.com/luckyyowu',
-        father: '부천시',
-        mother: '원미구',
-        position: '차녀',
+        phone: '+821056144070',
+        instagram: false,
+        father: '윤현남',
+        mother: '박경옥',
+        position: '장녀',
     },
     image: {
         header: require('./img/header.jpg'),
