@@ -21,21 +21,20 @@
 }
 
 .profile-image {
-  width: 90%;
+  width: 80%;
 }
 
 .app {
   text-align: center;
-  font-family: 'Nanum Myeongjo';
-  /*font-family: 'Noto Sans KR', sans-serif;*/
+  font-family: 'Nanum Myeongjo', serif;
   word-wrap: break-word;
   word-break: keep-all;
 }
 
 .app-header {
-  background-color: #222;
+  background-color: #f3f3f3;
   height: 80px;
-  color: white;
+  color: #333;
   font-family: 'Lobster'
 }
 
