@@ -9,11 +9,11 @@ export default function Footer() {
             <Col className='app-fluid app-footer d-flex justify-content-center align-items-center'>
                 <p className='mb-0'>
                     <small className='text-muted'>
-                        &copy; Yeongmin
+                        &copy; Noel Company
                         <span className='pl-2'>
-                            <a href='https://github.com/oinochoe' target='_blank'>
+                            {/* <a href='https://github.com/oinochoe' target='_blank'>
                                 Kim Yeong Min
-                            </a>
+                            </a> */}
                         </span>
                     </small>
                 </p>
